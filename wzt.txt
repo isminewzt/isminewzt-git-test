@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="zh">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>nul</title>
+		<style>
+			* {
+				padding: 0;
+				margin: 0;
+			}
+
+			.orange {
+				background-color: #FFA501;
+				width: 875px;
+			}
+
+			.blue {
+				width: 875px;
+				background-color: #01FFFF;
+			}
+
+			.yellow {
+				background-color: #FFD701;
+			}
+
+			#check {
+				width:875px;
+				margin: 50px auto;
+			}
+
+			.S1 {
+				font-family: 'microsoft yahei';
+				height: 63px;
+			}
+
+			.S2 {
+				font-family: 'microsoft yahei';
+				height: 38px;
+				margin-bottom: 26px;
+			}
+
+			.content {
+				height: 500px;
+				width: 875px;
+				background-color: #EEEEEE;
+			}
+
+			.menu {
+				width: 125px;
+				height: 500px;
+				float: left;
+				text-align: center;
+			}
+
+			.form {
+				width: 100%;
+				height: 500px;
+				padding-top: 8px;
+			}
+
+			form {
+				width: 720px;
+				background-color: transparent;
+				font-size: 20px;
+				font-family: "microsoft yahei";
+				margin: 5px;
+				font-weight: 500;
+				padding: 5px;
+				float: left;
+			}
+
+			.buton {
+				display: inline-block;
+				font-size: 15px;
+				margin-top: 15px;
+				font-weight: 100;
+			}
+
+			.footer {
+				height: 32px;
+				line-height: 32px;
+				text-align: center;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="check">
+			<div class="orange S1">
+				<h1>Oops!Seems that you did't logged in.</h1>
+			</div>
+			<div class="blue S2">
+				<h2>Please sign up to continue browsing.</h2>
+			</div>
+			<div class="content">
+				<div class="menu yellow">
+					<h3>MENU</h3>
+					<a href="#">HTML</a><br>
+					<a href="#">CSS</a><br>
+					<a href="#">JavaScript</a><br>
+				</div>
+				<div class="form">
+					<form action="post">
+						Nickname:<input type="text"><br>
+						Password:<input type="password"><br>
+						<input type="radio" name="sex">Male<br>
+						<input type="radio" name="sex">Female<br>
+						<br>
+						Introduce yourself so that we can evaluate your membership request.<br>
+						<textarea name="decription" cols="60" rows="10">Within 200 words or characters.</textarea>
+						<br>
+						<input type="submit" value="Sign Up" class="buton">
+						<input type="reset" value="Reset" class="buton">
+					</form>
+				</div>
+			</div>
+			<div class="footer orange">HCMSchool &copy All Rights Reserved</div>
+		</div>
+	</body>
+</html>
